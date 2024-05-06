@@ -1,0 +1,21 @@
+{
+  "name": "magento-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test-report": "npx playwright show-report test-reports"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "@types/node": "^20.12.8",
+    "playwright": "^1.43.1"
+  },
+  "dependencies": {
+    "playwright-core": "^1.43.1"
+  },
+  "description": ""
+}
